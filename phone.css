@@ -1,0 +1,166 @@
+body {}
+* {
+    margin-left: 4px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section header {
+    width: 400px;
+    height: 150px;
+    left: 0px;
+    position: absolute;
+    left: px;
+}
+section header ul li a{
+    font-size: 15px;
+    font-weight: 10px;
+    color: #3a3a3a;
+    
+}
+section header ul {
+    width: 444px;
+    list-style-type: none;
+    /* display: flex; */
+    position: absolute;
+    left: 74px;
+    top: 54px;
+}
+section header h1 {
+    font-size: 35px;
+    font-family: pyxidum quick;
+    font-weight: bold;
+    position: absolute;
+    top: -17px;
+    left: 230px;
+}
+section header p{
+    position: absolute;
+    top: 110px;
+    left: 220px;
+}
+section header ul li{
+    display: inline-block;
+    margin: 2px;
+    /* padding: 5px 20px ; */
+ }
+ section header ul{
+    position: absolute;
+    right: 0px;
+ }
+ section .content h1 {
+    position: absolute;
+    top: 23%;
+    left: 11%;
+    font-size: 80px;
+    color: #6a6666;
+    display: flex;
+}
+section .bg_image img {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0%;
+    top: 37%;
+    left: 3px;
+    z-index: -1;
+    box-shadow: 0 0 8px rgba(0,0,0.6);
+}
+section .content p {
+    width: 400px;
+    position: absolute;
+    top: 69%;
+    left: 1%;
+    line-height: 26px;
+    text-align: justify;
+}
+section header .web{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 33px;
+    left: -10px;
+    background-color: #6d4cd0;
+    z-index: -2;
+    clip-path: circle(650px at left -600px);
+ }
+ section header .webs{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 19px;
+    background-color: #6d4cd0;
+    z-index: -2;
+    clip-path: circle(100px at right 450px);
+ }
+ section .btn {
+    position: relative;
+    top: 95%;
+    left: 38px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .box{
+    width: 200px;
+    position: absolute;
+    left: 3px;
+    display: flex;
+}
+.about .clothes h1 {
+    font-size: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+    position: absolute;
+    top: 990px;
+}
+.about .clothes_box .clothes_card {
+    background: #9d9d9d;
+    width: 350px;
+    padding: 25px 25px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-left: 50px;
+    height:600px ;
+}
+.about .clothes .clothes_box img {
+    width: 288px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 274px;
+    box-shadow: 0 0 8px rgba(0 0 0.6);
+}
+.about .clothes .clothes_box{
+    position: absolute;
+    top: 1300px;
+    left: -23px;
+}
+.about .clothes p {
+    text-align: center;
+    color: gray;
+    font-size: 35px;
+    margin-top: 400px;
+}
+.about .clothes_box .clothes_card h1 {
+    font-size: 35px;
+    color: gainsboro;
+    margin-top: -93px;
+    margin-left: 77px;
+}
+.footer {
+    width: 100%;
+    background: #24262b;
+    padding: px;
+    position: absolute;
+    top: 5570px;
+}
+.footer .main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -40px;
+}
